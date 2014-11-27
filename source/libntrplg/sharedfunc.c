@@ -11,4 +11,5 @@ void initSharedFunc() {
 	INIT_SHARED_FUNC(plgRequestMemory, 4);
 	INIT_SHARED_FUNC(plgRegisterCallback, 5);
 	INIT_SHARED_FUNC(xsprintf, 6);
+	INIT_SHARED_FUNC(controlVideo, 7);
 }

@@ -45,3 +45,10 @@ nop
 nop
 
 
+.global controlVideo; 
+.type controlVideo, %function; 
+controlVideo:
+nop
+nop
+
+
