@@ -38,16 +38,22 @@ plgRegisterCallback:
 nop
 nop
 
-.global xsprintf; 
-.type xsprintf, %function; 
-xsprintf:
+.global plgGetIoBase; 
+.type plgGetIoBase, %function; 
+plgGetIoBase:
 nop
 nop
-
 
 .global controlVideo; 
 .type controlVideo, %function; 
 controlVideo:
+nop
+nop
+
+
+.global xsprintf; 
+.type xsprintf, %function; 
+xsprintf:
 nop
 nop
 

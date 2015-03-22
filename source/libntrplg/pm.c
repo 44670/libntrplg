@@ -1,11 +1,8 @@
 #include "global.h"
 
-void dumpKernel() {
-
-}
-
 Handle hCurrentProcess = 0;
 u32 currentPid = 0;
+
 
 u32 getCurrentProcessId() {
 	svc_getProcessId(&currentPid, 0xffff8001);
