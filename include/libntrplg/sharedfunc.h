@@ -12,6 +12,8 @@ void initSharedFunc();
 
 /* register a entry for NTR Menu */
 u32 plgRegisterMenuEntry(u32 catalog, char* title, void* callback) ;
+#define CATALOG_MAIN_MENU	1
+
 /* get a shared service's handle ie. fs:USER */
 u32 plgGetSharedServiceHandle(char* servName, u32* handle);
 /* request a memory block */
